@@ -1,3 +1,401 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+
+}
+  
+  /* Your code starts here! */
+  
+  .contain {
+   
+   width: 1000px;
+   margin: 0 auto;
+   padding: 0;
+
+   
+  }
+
+
+  @media(max-width:800px) {
+
+    
+
+}
+
+  @media(max-width:500px) {
+
+
+
+  }
+
+  
+  .navi {
+
+	 
+	  width: 90%;
+	  word-spacing: 40px;
+	  text-align: left;
+ 
+	
+	
+  }
+  
+  a {
+
+
+	text-decoration: none;
+	  color: grey;
+	  font-size: 20px;
+	  
+  }
+  
+  header {
+	  
+	display: flex;
+	flex-direction: row;
+	justify-items: baseline;
+	
+	  
+  }
+  
+  
+   
+  #headsho {
+
+margin-top: 70px;
+	font-size: 85px;
+	text-align: center;
+  }
+  
+
+  
+  .contimg {
+	
+
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+
+	  
+	  width: 100%;
+  }
+  
+  .innovmain {
+  
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+
+  
+  }
+  
+  button {
+	  
+	  
+	 width: 155px;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid black;
+	background: white;
+	
+  }
+  
+  .logo {
+	
+	width: 40%;
+
+	
+	
+  }
+  
+  .topcont, .bottomcont {
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-around;
+	
+
+  }
+  
+  .topcont {
+
+
+	border-top: 1px solid black;	
+
+
+
+  }
+
+.bottomcont {
+
+	margin-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+  .topcont article {
+  
+   width: 44%;
+
+  
+  }
+  
+  
+  
+  article {
+
+  
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+
+  }
+  
+  
+  
+  .bottomcont article {
+	  width: 28%;
+
+	
+	  
+  }
+  
+  #leftcont {
+	  
+
+	width: 40%;
+	text-align: center;
+
+	
+	
+  }
+  
+  #rightcont {
+	  
+
+
+	width: 50%;
+  
+  }
+  
+  
+  
+  body {
+	  
+	  
+	  font-family: "Titillium Web", sans-serif;
+  
+  }
+  
+  h1, h2 {
+	  font-family: "Bangers", cursive;
+	letter-spacing: 1px;
+  }
+  
+  .middle-img {
+  
+	width: 100%;
+
+
+  }
+  
+  #copyhuh {
+	  
+	  text-align: center;
+	  
+  }
+
+
+
+
+  .services-header-img {
+
+    width: 100%;
+
+  }
+
+
+
+  article, .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
+
+margin: 40px;
+
+
+  }
+
+ 
+  #column1, #column2, #column3 {
+
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    
+
+  }
+
+  #column1  {
+
+
+   
+  }
+
+  #column2  {
+
+
+  }
+
+  #column3  {
+
+
+  }
+  
+  
+   .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
+   
+
+    background-color: rgb(247, 245, 245);
+
+
+    border: 1px solid black;
+  
+  }
+
+  h2, p {
+
+    padding: 15px;
+    margin: 5px;
+    text-decoration: solid;
+    
+  
+
+  }
+
+p {
+
+  font-weight: bold;
+  
+
+}
+
+h2 {
+
+  font-size: large;
+
+}
+
+
+
+  button {
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+height: 45px;
+
+margin: 20px;
+
+  }
+
+  .servicecont {
+
+
+  
+
+    padding-bottom: 10px;
+    
+
+
+  }
+
+  .servicecont p, h1 {
+
+
+    margin: 10px;
+padding: 10px;
+
+  }
+
+  
+
+
+#somecont h2 {
+
+
+  padding-top: 30px;
+
+
+}
+
+  #somecont, #sectiondivide{
+
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+#facts {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+ul {
+
+margin-left: 30px;
+list-style-type: square;
+
+}
+
+#sectiondivide {
+
+
+flex-direction: column;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+#fact1 {
+
+  width: 40%;
+margin: 0;
+}
+
+#services-info-img {
+
+height: 90%;;
+  margin-top: 0;
+  margin-bottom: 0;
+
+	  
+	  width: auto;
+}
+
+#somecont, #factcontent {
+
+margin: 0;
+
+}
+
