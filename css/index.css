@@ -5,7 +5,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	max-width: 100%;
+    max-width: 100%;
+    border: 1px solid grey;
 
 }
   
@@ -13,25 +14,15 @@
   
   .contain {
    
-   width: 1000px;
+   width: 1200px;
    margin: 0 auto;
    padding: 0;
 
    
   }
 
+ 
 
-  @media(max-width:800px) {
-
-    
-
-}
-
-  @media(max-width:500px) {
-
-
-
-  }
 
   
   .navi {
@@ -39,7 +30,7 @@
 	 
 	  width: 90%;
 	  word-spacing: 40px;
-	  text-align: left;
+	  text-align: center;
  
 	
 	
@@ -57,12 +48,17 @@
   header {
 	  
 	display: flex;
-	flex-direction: row;
-	justify-items: baseline;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-items: baseline;
+    align-content: left;
 	
 	  
   }
+
+
   
+
   
    
   #headsho {
@@ -79,17 +75,17 @@ margin-top: 70px;
 
 	display: block;
 	margin-left: 0;
-	margin-right: 0;
-
-	  
-	  width: 100%;
+	margin-right: 0;	  
+      width: 100%;
+      
   }
   
   .innovmain {
   
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  flex-direction: row;
+  align-items: left;
+
 
 
 
@@ -109,11 +105,15 @@ margin-top: 70px;
   
   .logo {
 	
-	width: 40%;
-
+    display: block;
+	margin-left: 0;
+	margin-right: 0;	  
+      width: 100%;	 
+     
 	
 	
   }
+
   
   .topcont, .bottomcont {
 
@@ -201,7 +201,8 @@ margin-top: 70px;
   
   .middle-img {
   
-	width: 100%;
+    width: 100%;
+
 
 
   }
@@ -242,21 +243,6 @@ margin: 40px;
 
   }
 
-  #column1  {
-
-
-   
-  }
-
-  #column2  {
-
-
-  }
-
-  #column3  {
-
-
-  }
   
   
    .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
@@ -399,3 +385,49 @@ margin: 0;
 
 }
 
+/* Tablet View */
+
+@media(max-width: 800px) {
+
+    .innovmain, header {
+  
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+        }
+
+        header {
+	  
+          
+            flex-wrap: wrap;
+            justify-items: baseline;
+            align-content: center;
+            
+              
+          }
+
+          .contimg {
+	
+
+            display: none;
+            margin-left: 0;
+            margin-right: 0;	  
+              width: 100%;
+              
+          }
+          
+    
+
+}
+
+
+/* Phone View */
+
+
+@media(max-width:500px) {
+
+
+
+}
+ 
