@@ -6,7 +6,6 @@
 	margin: 0;
 	padding: 0;
     max-width: 100%;
-    border: 1px solid grey;
 
 }
   
@@ -17,6 +16,7 @@
    width: 1200px;
    margin: 0 auto;
    padding: 0;
+  
 
    
   }
@@ -38,7 +38,7 @@
   
   a {
 
-
+   
 	text-decoration: none;
 	  color: grey;
 	  font-size: 20px;
@@ -120,8 +120,7 @@ margin-top: 70px;
 
 	display: flex;
 	flex-direction: row;
-	justify-content:  space-around;
-	
+	justify-content:  space-between;
 
   }
   
@@ -136,7 +135,6 @@ margin-top: 70px;
 
 .bottomcont {
 
-	margin-bottom: 50px;
 	border-bottom: 1px solid black;
 }
 
@@ -152,8 +150,8 @@ margin-top: 70px;
   article {
 
   
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 
 
   }
@@ -226,7 +224,7 @@ margin-top: 70px;
 
   article, .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
 
-margin: 40px;
+margin: 0px;
 
 
   }
@@ -397,6 +395,14 @@ margin: 0;
         
         }
 
+
+        #headsho {
+
+            margin-top: 5px;
+                font-size: 75px;
+                text-align: center;
+              }
+
         header {
 	  
           
@@ -411,9 +417,7 @@ margin: 0;
 	
 
             display: none;
-            margin-left: 0;
-            margin-right: 0;	  
-              width: 100%;
+          
               
           }
           
@@ -428,6 +432,94 @@ margin: 0;
 @media(max-width:500px) {
 
 
+    .innovmain, header {
+  
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: left;
+        
+        
+        }
 
+        header {
+	  
+          
+            flex-wrap: nowrap;
+            justify-items: baseline;
+            align-content: center;
+            
+              
+          }
+
+          #headsho {
+
+            margin-top: 5px;
+                font-size: 55px;
+                text-align: center;
+              }
+
+          .innovmain {
+  
+            
+            align-items: left;
+          
+            
+            }
+
+          .contimg {
+	
+
+            display: none;
+           
+              
+          }
+          
+    
+
+    a {
+
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+          color: grey;
+          font-size: 20px;
+          border-top: 1px solid grey;
+          border-bottom: 1px solid grey;
+
+          
+      }
+
+      .topcont, .bottomcont {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    
+      }
+
+      .logo {
+
+        width: 80%;
+        justify-items: center;
+        padding: 0%;
+        margin: 0%;
+      }
+
+
+      .topcont article {
+  
+        width: 100%;
+     
+       
+       }
+
+       .bottomcont article {
+
+        width: 100%;
+       }
 }
  
