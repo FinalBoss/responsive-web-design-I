@@ -3,68 +3,78 @@
 
 * {
 	box-sizing: border-box;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-    max-width: 100%;
+  max-width: 100%;
+  font-size: 62.5%;
 
 }
   
   /* Your code starts here! */
+
+  /* Main Controls */
   
   .contain {
    
    width: 1200px;
-   margin: 0 auto;
    padding: 0;
-  
-
    
   }
 
- 
+ /* Header */
 
-
+  header {
+    
+      justify-items: baseline;
+      align-content: center;
+    
+      
+    }
   
-  .navi {
+  nav {
 
-	 
-	  width: 90%;
-	  word-spacing: 40px;
+    display: flex;
+flex-direction: row;
 	  text-align: center;
  
-	
-	
+  }
+
+  a {
+
+    justify-content: space-between;
+
   }
   
-  a {
+  .navi a {
 
    
 	text-decoration: none;
 	  color: grey;
-	  font-size: 20px;
+    font-size: 2rem;
+    justify-content: space-evenly;
+
 	  
   }
   
-  header {
-	  
-	display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-items: baseline;
-    align-content: left;
+
+ .navi, .logo {
 	
-	  
+    flex-wrap: wrap;
+
+
   }
 
-
-  
+  .logo{
+    width: 20%;	 
+     
+}  
 
   
    
   #headsho {
 
 margin-top: 70px;
-	font-size: 85px;
+	font-size: 8.5rem;
 	text-align: center;
   }
   
@@ -96,23 +106,14 @@ margin-top: 70px;
 	  
 	  
 	 width: 155px;
-	padding: 5px;
-	font-size: 14px;
+	padding: .5rem;
+	font-size: 1.4rem;
 	border: 1px solid black;
 	background: white;
 	
   }
   
-  .logo {
-	
-    display: block;
-	margin-left: 0;
-	margin-right: 0;	  
-      width: 100%;	 
-     
-	
-	
-  }
+  
 
   
   .topcont, .bottomcont {
@@ -194,7 +195,7 @@ margin-top: 70px;
   
   h1, h2 {
 	  font-family: "Bangers", cursive;
-	letter-spacing: 1px;
+	letter-spacing: .1rem;
   }
   
   .middle-img {
@@ -224,7 +225,7 @@ margin-top: 70px;
 
   article, .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
 
-margin: 0px;
+margin: 0%;
 
 
   }
@@ -253,10 +254,13 @@ margin: 0px;
   
   }
 
+  /* Fonts */
+
+
   h2, p {
 
-    padding: 15px;
-    margin: 5px;
+    padding: 2%;
+    margin: 2%;
     text-decoration: solid;
     
   
@@ -265,6 +269,7 @@ margin: 0px;
 
 p {
 
+  font-size: 1.6rem;
   font-weight: bold;
   
 
