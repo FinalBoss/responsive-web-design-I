@@ -1,3 +1,556 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+  max-width: 100%;
+  font-size: 62.5%;
+
+}
+  
+  /* Your code starts here! */
+
+  /* Main Controls */
+  
+  .contain {
+   
+   width: 1200px;
+   padding: 0;
+   
+  }
+
+ /* Header */
+
+  
+.navi .logo {
+
+  display: flex;
+
+}
+
+
+    
+nav {
+
+  display: flex;
+  justify-content: space-around;
+}
+   
+
+
+  
+   a, address {
+
+   text-decoration: none;
+	  color: grey;
+    font-size: 2rem;
+	  
+  }
+  
+
+
+
+  .logo{
+    width: 25%;	 
+   margin-left:  119rem;
+    
+}  
+
+  
+   
+  #headsho {
+
+margin-top: 70px;
+	font-size: 8.5rem;
+	text-align: center;
+  }
+  
+
+  
+  .contimg {
+	
+
+	display: block;
+	margin-left: 0;
+	margin-right: 0;	  
+      width: 100%;
+      
+  }
+  
+  .innovmain {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+
+
+
+
+  
+  }
+  
+  button {
+	  
+	  
+	 width: 155px;
+	padding: .5rem;
+	font-size: 1.4rem;
+	border: 1px solid black;
+	background: white;
+	
+  }
+  
+  
+
+  
+  .topcont, .bottomcont {
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-between;
+
+  }
+  
+  .topcont {
+
+
+	border-top: 1px solid black;	
+
+
+
+  }
+
+.bottomcont {
+
+	border-bottom: 1px solid black;
+}
+
+  .topcont article {
+  
+   width: 44%;
+
+  
+  }
+  
+  
+  
+  article {
+
+  
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+
+  }
+  
+  
+  
+  .bottomcont article {
+	  width: 28%;
+
+	
+	  
+  }
+  
+  #leftcont {
+	  
+
+	width: 40%;
+	text-align: center;
+
+	
+	
+  }
+  
+  #rightcont {
+	  
+
+
+	width: 50%;
+  
+  }
+  
+  
+  
+  body {
+	  
+	  
+	  font-family: "Titillium Web", sans-serif;
+  
+  }
+  
+  h1, h2 {
+	  font-family: "Bangers", cursive;
+	letter-spacing: .1rem;
+  }
+  
+  .middle-img {
+  
+    width: 100%;
+
+
+
+  }
+  
+  #copyhuh {
+	  
+	  text-align: center;
+	  
+  }
+
+
+
+
+  .services-header-img {
+
+    width: 100%;
+
+  }
+
+
+
+  article, .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
+
+margin: 0%;
+
+
+  }
+
+ 
+  #column1, #column2, #column3 {
+
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    
+
+  }
+
+  
+  
+   .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
+   
+
+    background-color: rgb(247, 245, 245);
+
+
+    border: 1px solid black;
+  
+  }
+
+  /* Fonts */
+
+
+  h2, p {
+
+    padding: 2%;
+    margin: 2%;
+    text-decoration: solid;
+    
+  
+
+  }
+
+p {
+
+  font-size: 1.6rem;
+  font-weight: bold;
+  
+
+}
+
+h2 {
+
+  font-size: large;
+
+}
+
+
+
+  button {
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+height: 45px;
+
+margin: 20px;
+
+  }
+
+  .servicecont {
+
+
+  
+
+    padding-bottom: 10px;
+    
+
+
+  }
+
+  .servicecont p, h1 {
+
+
+    margin: 10px;
+padding: 10px;
+
+  }
+
+  
+
+
+#somecont h2 {
+
+
+  padding-top: 30px;
+
+
+}
+
+  #somecont, #sectiondivide{
+
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+#facts {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+ul {
+
+margin-left: 30px;
+list-style-type: square;
+
+}
+
+#sectiondivide {
+
+
+flex-direction: column;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+#fact1 {
+
+  width: 40%;
+margin: 0;
+}
+
+#services-info-img {
+
+height: 90%;;
+  margin-top: 0;
+  margin-bottom: 0;
+
+	  
+	  width: auto;
+}
+
+#somecont, #factcontent {
+
+margin: 0;
+
+}
+
+/* Tablet View */
+
+@media(max-width: 800px) {
+
+    .innovmain, header {
+  
+        flex-direction: column;
+        align-items: center;
+        
+        }
+
+     
+nav {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+#headsho {
+
+  margin: 0;
+  padding: 0%;
+      font-size: 7rem;
+  text-align: center;
+    }
+
+    .logo, #headsho {
+
+      margin-left: -15%;
+    }
+
+    .logo {
+
+
+      margin-left: 30%;
+
+    }
+
+        header {
+	  
+          
+            flex-wrap: wrap;
+            justify-items: baseline;
+            align-content: center;
+            
+              
+          }
+
+          .contimg {
+	
+
+            display: none;
+          
+              
+          }
+          
+    
+
+}
+
+
+/* Phone View */
+
+
+@media(max-width:500px) {
+
+
+    .innovmain, header {
+  
+
+        flex-direction: column;
+        align-items: center;
+        
+        
+        }
+
+        #leftcont {
+
+
+          width: 100%;
+
+        }
+
+   nav {
+
+    display: flex;
+    flex-direction: column;
+   }
+
+        header {
+	  
+          
+            flex-wrap: nowrap;
+            justify-items: baseline;
+            align-content: center;
+            
+              
+          }
+
+          .innovmain {
+
+            margin-right: -17%;
+            padding: 0%;
+            flex-direction: row;
+            justify-content: space-evenly;
+          }
+
+          #headsho {
+
+            margin-left: 9%;
+            padding: 0%;
+                font-size: 7rem;
+            text-align: center;
+              }
+
+       
+
+          .contimg {
+	
+
+            display: none;
+           
+              
+          }
+          
+    
+
+    a {
+
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+          color: grey;
+          font-size: 20px;
+          border-top: 1px solid grey;
+          border-bottom: 1px solid grey;
+          margin: 0;
+
+          
+      }
+
+      .topcont, .bottomcont {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    
+      }
+
+    .navi  .logo {
+
+        width: 80%;
+        justify-content: center;
+        padding: 0%;
+        margin-left: 10%;
+      }
+
+
+      .topcont article {
+  
+        width: 100%;
+     
+       
+       }
+
+       .bottomcont article {
+
+        width: 100%;
+       }
+}
+ 
